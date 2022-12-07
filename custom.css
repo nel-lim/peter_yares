@@ -290,7 +290,7 @@ max-width: fit-content;
 }
 
 .footer_content ul li a span:hover{
-  color:#000;
+  color:#000AFF;
   transition: 400ms;
 
 }
