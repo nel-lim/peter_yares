@@ -2,11 +2,12 @@
 for final hands-on exam*/
 
 body{
+  font-family: 'lato' , sans-serif;
   color: #000;
   height: 100%;
   max-width: 100%;
   display: block;
-  margin: 0;
+  margin: 0 auto;
 }
 
 a, li{
@@ -29,20 +30,13 @@ h1, h2, h3, h4, h5, h6, p{
 .container{
   max-width: 1920px;
   margin: 0 auto;
-  height: 850px;
+  
 }
 
 
 /* Header Section */
 
-header .container{
-  margin: 20px auto 0px;
-  background: white;
-  border-radius: 5px;
-  position: relative;
-  max-width: 1920px;
 
-}
 
 header .header_container{
   display: flex;
@@ -52,12 +46,15 @@ header .header_container{
   max-width: 1200px;
 }
 
-header nav ul{
+nav{
+  float: right;
+}
+
+header nav ul {
   display: flex;
   justify-content: flex-start;
-  gap:  100px;
+  gap: 100px;
   background: #A1A4B5;
-  display: flex;
   padding: 15px 25px;
   border-radius: 5px;
 }
@@ -74,17 +71,18 @@ header nav ul li a:hover{
   color: blue;
 
 }
+
 /* Hero Section */
 
 .main_content{
 max-width: fit-content;
 }
+
 .container {
   max-width: 1180;
-  height: 850px;
+  height: 850p  x;
   margin: 0 auto;
   display: block;
-
 } 
 
 .header_container img{
@@ -94,8 +92,11 @@ max-width: fit-content;
 }
 
 /* hero */
-#hero{
 
+#hero{ background: url(IMAGES/Hero.png) no-repeat top / cover, linear-gradient(178.81deg, #000AFF 55.08%, #181C88 55.61%, rgba(24, 28, 136, 0) 198.36%, rgba(24, 28, 136, 0) 198.36%, rgba(24, 28, 136, 0.145748) 198.36%);
+  margin-top: -177px;
+  padding-top: 140px;
+  display: block;
 }
 
 #hero img{
@@ -136,7 +137,6 @@ max-width: fit-content;
 for final hands-on exam*/
 
 
-
 /* 2nd box */
 
 .second_content{
@@ -165,7 +165,6 @@ for final hands-on exam*/
   height: 850px;
   max-width: 100%;
 }
-
 
 
 .second_container{
@@ -205,6 +204,10 @@ for final hands-on exam*/
 }
 
 #third{
+  background: url(IMAGES/third.png) no-repeat top / cover, linear-gradient(0deg, #7D1717 53.94%, rgba(125, 23, 23, 0) 200.24%);
+  margin: 0 auto;
+  padding-top: 140px;
+  display: block;
 
 } 
 
@@ -275,7 +278,7 @@ display: block;
   margin: 0 auto;
   gap: 40px;
   justify-content: center;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .footer_content ul li a span{
