@@ -1,5 +1,7 @@
+/*instructor john nel lim 
+for final hands-on exam*/
+
 body{
-  font-family: 'lato' , sans-serif;
   color: #000;
   height: 100%;
   max-width: 100%;
@@ -93,10 +95,7 @@ max-width: fit-content;
 
 /* hero */
 #hero{
-  background: url(IMAGES/Hero.png) no-repeat top / cover, linear-gradient(178.81deg, #181C88 55.08%, #181C88 55.61%, rgba(24, 28, 136, 0) 198.36%, rgba(24, 28, 136, 0) 198.36%, rgba(24, 28, 136, 0.145748) 198.36%);
-  margin-top: -105px;
-  padding-top: 140px;
-  display: block;
+
 }
 
 #hero img{
@@ -133,6 +132,9 @@ max-width: fit-content;
   border-radius: 5px;
 }
 
+/*instructor john nel lim 
+for final hands-on exam*/
+
 
 
 /* 2nd box */
@@ -164,9 +166,7 @@ max-width: fit-content;
   max-width: 100%;
 }
 
-.second_main{
-  max-width: fit-contess;
-}
+
 
 .second_container{
   max-width: 1920px;
@@ -205,10 +205,7 @@ max-width: fit-content;
 }
 
 #third{
-  background: url(IMAGES/third.png) no-repeat top / cover, linear-gradient(0deg, #7D1717 53.94%, rgba(125, 23, 23, 0) 200.24%);
-  margin: 0 auto;
-  padding-top: 140px;
-  display: block;
+
 } 
 
 #third img{
@@ -264,9 +261,7 @@ display: block;
   font-size: 30px;
 }
 
-.footer_main{
-max-width: fit-content;
-}
+
 
 .footer_container{
   max-width: 1920px;
@@ -294,3 +289,6 @@ max-width: fit-content;
   transition: 400ms;
 
 }
+
+/*instructor john nel lim 
+for final hands-on exam*/
